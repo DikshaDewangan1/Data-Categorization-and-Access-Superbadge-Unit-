@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_ID__c</fullName>
+    <description>Field needs to accommodate Tax IDs up to 12 digits.</description>
+    <externalId>false</externalId>
+    <label>Tax ID</label>
+    <length>12</length>
+    <maskChar>asterisk</maskChar>
+    <maskType>lastFour</maskType>
+    <required>false</required>
+    <type>EncryptedText</type>
+</CustomField>

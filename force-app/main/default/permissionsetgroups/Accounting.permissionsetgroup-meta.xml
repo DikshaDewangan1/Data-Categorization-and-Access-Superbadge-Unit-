@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set group for accounting users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Accounting</label>
+    <mutingPermissionSets>Accounting_Muted</mutingPermissionSets>
+    <permissionSets>Account_Management</permissionSets>
+    <permissionSets>Opportunity_Management</permissionSets>
+    <permissionSets>Special_Platforms</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

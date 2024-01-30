@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set group for call center agents</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Call Center Agent</label>
+    <mutingPermissionSets>Call_Center_Agent_Muted</mutingPermissionSets>
+    <permissionSets>Account_Management</permissionSets>
+    <permissionSets>CTI_Access</permissionSets>
+    <permissionSets>Case_Access</permissionSets>
+    <permissionSets>Opportunity_Management</permissionSets>
+    <permissionSets>Service_Routing_and_Communication</permissionSets>
+    <permissionSets>force__SalesConsoleUser</permissionSets>
+    <permissionSets>force__ServiceUserPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
